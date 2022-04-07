@@ -13,6 +13,6 @@ use App\Http\Controllers\StudentsController;
 |
 */
 
-Route::get('/', [StudentsController::class, 'begin']);
+Route::get('begin', [StudentsController::class, 'begin']);
 Route::post('enter-grades', [StudentsController::class, 'enterGrades']);
 Route::post('compute-grades', [StudentsController::class, 'computeGrades']);

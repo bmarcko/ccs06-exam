@@ -6,9 +6,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compute Grades</title>
+    <title>Results Page</title>
 </head>
 <body>
+
+<div class="container-md">
+    <h1>Students Computed Average Grades</h1>
+
+    <table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Student Name</th>
+            <th scope="col">Midterm Grade</th>
+            <th scope="col">Finals Grade</th>
+            <th scope="col">Average Grade</th>
+            <th scope="col">Remarks</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>{{ $student_1 }}</td>
+            <td>{{ $s1_midterm }}</td>
+            <td>{{ $s1_finals }}</td>
+            <td>{{ $s1_average }}</td>
+            <td>{{ $s1_remarks }}</td>
+        </tr>
+        <tr>
+            <td>{{ $student_2 }}</td>
+            <td>{{ $s2_midterm }}</td>
+            <td>{{ $s2_finals }}</td>
+            <td>{{ $s2_average }}</td>
+            <td>{{ $s2_remarks }}</td>
+        </tr>
+        <tr>
+            <td>{{ $student_3 }}</td>
+            <td>{{ $s3_midterm }}</td>
+            <td>{{ $s3_finals }}</td>
+            <td>{{ $s3_average }}</td>
+            <td>{{ $s3_remarks }}</td>
+        </tr>
+        <tr>
+            <td>{{ $student_4 }}</td>
+            <td>{{ $s4_midterm }}</td>
+            <td>{{ $s4_finals }}</td>
+            <td>{{ $s4_average }}</td>
+            <td>{{ $s4_remarks }}</td>
+        </tr>
+        <tr>
+            <td>{{ $student_5 }}</td>
+            <td>{{ $s5_midterm }}</td>
+            <td>{{ $s5_finals }}</td>
+            <td>{{ $s5_average }}</td>
+            <td>{{ $s5_remarks }}</td>
+        </tr>
+    </tbody>
+    </table>
+</div>
     
 </body>
 </html>

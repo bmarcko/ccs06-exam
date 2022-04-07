@@ -10,23 +10,23 @@
 </head>
 <body>
     
-<div class="container-sm">
-    <h1>Enter the students' complete name</h1>
+<div class="container-md">
+    <h1>Enter the name of the students</h1>
 
     <form action="/enter-grades" method="POST">
         @csrf
         @for ($i = 1; $i <= 5; $i++)
         <div class="row">
-            <p>Student {{ $i }} Name:</p>
+            <p>Student {{ $i }} full name:</p>
             <input type="text" name="name_{{ $i }}" class="form-control" required>
-            <br>
         </div>
         @endfor
-
+        <br>
+        <div class="row">
         <button class="btn btn-primary btn-lg" type="submit">
-            Enter
+            Submit Student Names 
         </button>
-
+        </div>
     </form>
 </div>
 

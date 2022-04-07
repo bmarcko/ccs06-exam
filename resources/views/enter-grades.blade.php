@@ -22,75 +22,75 @@
     
     @csrf
     <div class="row">
-        <label>Student: {{ $student_1 }}</label>
+        <label>Student: <b>{{ $student_1 }}</b></label>
         <div class="col col-md-6">
             <label>Midterm Grade</label>
-            <input type="number" name="student1_midterm" class="form-control">
+            <input type="number" name="s1_midterm" class="form-control" required>
         </div>
 
         <div class="col col-md-6">
             <label>Finals Grade</label>
-            <input type="number" name="student1_midterm" class="form-control">
+            <input type="number" name="s1_finals" class="form-control" required>
         </div>
     </div>
-    
+    <br>
     <div class="row">
-        <label>Student: {{ $student_2 }}</label>
+        <label>Student: <b>{{ $student_2 }}</b></label>
         <div class="col col-md-6">
             <label>Midterm Grade</label>
-            <input type="number" name="student1_midterm" class="form-control">
+            <input type="number" name="s2_midterm" class="form-control" required>
         </div>
 
         <div class="col col-md-6">
             <label>Finals Grade</label>
-            <input type="number" name="student1_midterm" class="form-control">
+            <input type="number" name="s2_finals" class="form-control" required>
         </div>
     </div>
-
+    <br>
     <div class="row">
-        <label>Student: {{ $student_3 }}</label>
+        <label>Student: <b>{{ $student_3 }}</b></label>
         <div class="col col-md-6">
             <label>Midterm Grade</label>
-            <input type="number" name="student1_midterm" class="form-control">
+            <input type="number" name="s3_midterm" class="form-control" required>
         </div>
 
         <div class="col col-md-6">
             <label>Finals Grade</label>
-            <input type="number" name="student1_midterm" class="form-control">
+            <input type="number" name="s3_finals" class="form-control" required>
         </div>
     </div>
-
+    <br>
     <div class="row">
-        <label>Student: {{ $student_4 }}</label>
+        <label>Student: <b>{{ $student_4 }}</b></label>
         <div class="col col-md-6">
             <label>Midterm Grade</label>
-            <input type="number" name="student1_midterm" class="form-control">
+            <input type="number" name="s4_midterm" class="form-control" required>
         </div>
 
         <div class="col col-md-6">
             <label>Finals Grade</label>
-            <input type="number" name="student1_midterm" class="form-control">
+            <input type="number" name="s4_finals" class="form-control" required>
         </div>
     </div>
-    
+    <br>    
     <div class="row">
-        <label>Student: {{ $student_5 }}</label>
+        <label>Student: <b>{{ $student_5 }}</b></label>
         <div class="col col-md-6">
             <label>Midterm Grade</label>
-            <input type="number" name="student1_midterm" class="form-control">
+            <input type="number" name="s5_midterm" class="form-control" required>
         </div>
 
         <div class="col col-md-6">
             <label>Finals Grade</label>
-            <input type="number" name="student1_midterm" class="form-control">
+            <input type="number" name="s5_finals" class="form-control" required>
         </div>
     </div>
-
+    <br>
+    <div class="row">
     <button class="btn btn-primary btn-lg" type="submit">
         Compute Grades
     </button>
-
-
+    </div>
     </form>
 </div>
 
